@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		770EE0C929C1E3D8009FBFE1 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770EE0C829C1E3D8009FBFE1 /* OnboardingContainerViewController.swift */; };
 		772C47D729C0CD6700768551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C47D629C0CD6700768551 /* AppDelegate.swift */; };
 		772C47D929C0CD6700768551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C47D829C0CD6700768551 /* SceneDelegate.swift */; };
 		772C47DB29C0CD6700768551 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C47DA29C0CD6700768551 /* LoginViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		770EE0C829C1E3D8009FBFE1 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		772C47D329C0CD6700768551 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		772C47D629C0CD6700768551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		772C47D829C0CD6700768551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		770EE0C729C1E3B6009FBFE1 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				770EE0C829C1E3D8009FBFE1 /* OnboardingContainerViewController.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
 		772C47CA29C0CD6700768551 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		772C47D529C0CD6700768551 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				770EE0C729C1E3B6009FBFE1 /* Onboarding */,
 				772C47EA29C10D0900768551 /* Files */,
 				772C47D629C0CD6700768551 /* AppDelegate.swift */,
 				772C47D829C0CD6700768551 /* SceneDelegate.swift */,
@@ -156,6 +167,7 @@
 				772C47DB29C0CD6700768551 /* LoginViewController.swift in Sources */,
 				772C47D729C0CD6700768551 /* AppDelegate.swift in Sources */,
 				772C47D929C0CD6700768551 /* SceneDelegate.swift in Sources */,
+				770EE0C929C1E3D8009FBFE1 /* OnboardingContainerViewController.swift in Sources */,
 				772C47ED29C10D8800768551 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
